@@ -36,7 +36,7 @@ X = T06(1,4)
 Y = T06(2,4)
 Z = T06(3,4)
 
-Thome = subs(A06,{th1,th2,th3,th4,th5,th6},{0,0,0,0,0,0})%matrix for home position where theta values are zero
+Thome = subs(T06,{th1,th2,th3,th4,th5,th6},{0,0,0,0,0,0})%matrix for home position where theta values are zero
 X = Thome(1,4)%end effector position 
 Y = Thome(2,4)%end effector position
 Z = Thome(3,4)%end effector position
